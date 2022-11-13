@@ -1,0 +1,91 @@
+#login-box {
+    width: 30%;
+    /* height: 260px; */
+    padding: 20px 50px;
+    /* position: absolute; */
+    /* left: 50%; */
+    /* top: 50%; */
+    margin: 0 auto;
+    margin-top: 15%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text-field {
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 1px;
+}
+
+#text-center {
+    font-size: 14px;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#btn-login {
+    font-size: 14px;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    border-radius: 15px;
+    border: 0;
+}
+
+#btn_create_acc {
+    font-size: 14px;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    border-radius: 15px;
+    border: 0;
+    margin: 10px;
+}
+
+#forget-pwd {
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    float: left;
+    bottom: 5px;
+}
+
+#forget-pwd:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* .grid__item {
+    width: 100px;
+
+
+} */
+.text-field-Register {
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 1px;
+}
+
+.bg-secondary {
+    background-color: #EDF1FF !important;
+}
+
+.btn-primary {
+    color: #212529;
+    background-color: #D19C97;
+    border-color: #D19C97;
+}
+
+.text-dark {
+    color: #1C1C1C !important;
+}
+
+.text-primary {
+    color: #D19C97 !important;
+}
