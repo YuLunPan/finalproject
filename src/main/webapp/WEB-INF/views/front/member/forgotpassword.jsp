@@ -69,17 +69,11 @@
           </script>
           
           <script>
-          $(document).on("keydown", function (event) {
-              console.log(event.keyCode);
-              if (event.keyCode == 65) {
-                  $("#email").val("mini861021@gmail.com");
-              }
-          })
           
             $("#emailinfo").click(function () {
             	let emailText = {};
             	emailText.email=$("#email").val();
-           		 let email = JSON.stringify(emailText);
+           		let email = JSON.stringify(emailText);
            		console.log(email);
                 $.ajax({
                   url: '/Chezmoi/sendVerify',

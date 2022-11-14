@@ -83,13 +83,6 @@
                 <script src="https://code.jquery.com/jquery-3.6.1.js"
                 integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
                 <script>
-                $(document).on("keydown", function (event) {
-                    console.log(event.keyCode);
-                    if (event.keyCode == 65) {
-                        $("#email").val("mini861021@gmail.com");
-                        $("#password").val("aaa111");
-                    }
-                })
                     function myFunction() {
                         var x = document.getElementById("password");
                         if (x.type === "password") {

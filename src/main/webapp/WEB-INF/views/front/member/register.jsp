@@ -138,15 +138,6 @@
             <script type="text/javascript"
                 src="${contextRoot}/datePick/js/bootstrap-datepicker.zh-TW.min.js"></script>
             <script>
-            $(document).on("keydown", function (event) {
-                console.log(event.keyCode);
-                if (event.keyCode == 65) {
-                    $("#name").val(" 潘玉倫");
-                    $("#phone").val("0981935200");
-                    $("#email").val("mini861021@gmail.com");
-                    $("#password").val("aaa111");
-                }
-            })
             
                 $('#sandbox-container .input-group.date').datepicker({
                     format: "yyyy-mm-dd",
